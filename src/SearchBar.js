@@ -1,11 +1,12 @@
 import React, {useState} from 'react'
 import './styles/SearchBar.css'
 
+/*This component displays the search bar elements*/
 const SearchBar = (props) =>{
     const [text, setText] = useState("")
+    //the callback is supplied by the parent element
     const searchCallback = props.searchCallback
 
-    
     const handleTextEdit = (event) =>{
         const text = event.target.value
         setText(text)
