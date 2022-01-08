@@ -1,0 +1,28 @@
+table{
+    border-collapse: collapse;
+    border:1px solid #FFFFFF;
+    min-width: 500px;
+}
+  
+td{
+    border:1px solid #FFFFFF;
+    padding: 5px;
+}
+
+/*The parent table element itself*/
+.TabbedTable{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*A flexbox that contains all of the tab buttons for a table*/
+.TabSet{
+    display: flex;
+}
+
+/*A single button that represents a tab*/
+.TableTab{
+    margin-left: 0;
+    font-size: 20px;
+}
+

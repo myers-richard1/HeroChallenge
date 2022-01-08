@@ -1,0 +1,9 @@
+.HeroCardTitle{
+    margin-left:  0;
+    text-align: left;
+}
+
+.ImageWithTable{
+    display: flex;
+    justify-content: flex-start;
+}
