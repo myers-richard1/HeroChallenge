@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HeroChallenge/static/css/main.9bb56382.css",
+    "main.js": "/HeroChallenge/static/js/main.d327aa66.js",
+    "static/media/placeholder.jpg": "/HeroChallenge/static/media/placeholder.88a88b40325c8ad68ce5.jpg",
+    "index.html": "/HeroChallenge/index.html",
+    "main.9bb56382.css.map": "/HeroChallenge/static/css/main.9bb56382.css.map",
+    "main.d327aa66.js.map": "/HeroChallenge/static/js/main.d327aa66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bb56382.css",
+    "static/js/main.d327aa66.js"
+  ]
+}
