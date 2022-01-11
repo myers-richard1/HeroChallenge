@@ -1,3 +1,7 @@
+.SearchForm{
+    padding-top: 2%;
+}
+
 .SearchBox{
     height: 30px;
 }
@@ -11,5 +15,6 @@
         position: fixed;
         top: 1%;
         right: 5%;
+        padding-top: 0;
     }
 }
