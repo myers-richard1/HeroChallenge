@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/HeroChallenge/static/css/main.bbe9adb1.css",
+    "main.css": "/HeroChallenge/static/css/main.537580db.css",
     "main.js": "/HeroChallenge/static/js/main.e93c9192.js",
     "static/media/placeholder.jpg": "/HeroChallenge/static/media/placeholder.88a88b40325c8ad68ce5.jpg",
     "index.html": "/HeroChallenge/index.html",
-    "main.bbe9adb1.css.map": "/HeroChallenge/static/css/main.bbe9adb1.css.map",
+    "main.537580db.css.map": "/HeroChallenge/static/css/main.537580db.css.map",
     "main.e93c9192.js.map": "/HeroChallenge/static/js/main.e93c9192.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbe9adb1.css",
+    "static/css/main.537580db.css",
     "static/js/main.e93c9192.js"
   ]
 }
