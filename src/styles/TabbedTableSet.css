@@ -1,23 +1,8 @@
-table{
-    border-collapse: collapse;
-    border:1px solid #FFFFFF;
-    min-width: 500px;
-}
-  
-td{
-    border:1px solid #FFFFFF;
-    padding: 5px;
-}
-
-/*The parent table element itself*/
+/*The table + the tabs that control it*/
 .TabbedTable{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-/*A flexbox that contains all of the tab buttons for a table*/
-.TabSet{
-    display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
+    min-width: 100%;
 }
 
 /*A single button that represents a tab*/
@@ -25,4 +10,34 @@ td{
     margin-left: 0;
     font-size: 20px;
 }
+
+table{
+    border-collapse: collapse;
+    border:1px solid #FFFFFF;
+    min-width: 100%;
+}
+
+td{
+    border:1px solid #FFFFFF;
+    padding: 5px;
+}
+
+
+@media screen and (min-width: 900px){
+    /*Some overrides to make the table and image maintain width properly in row-oriented flexbox*/
+    .TabbedTable{
+        padding-left: 1%;
+        padding-right: 1%;
+        padding: 5px;
+        min-width: 60%;
+        width: 60%;
+    }
+
+    .TabSet{
+        display: flex;
+    }
+}
+
+
+
 

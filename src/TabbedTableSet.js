@@ -17,7 +17,7 @@ const TabbedTableSet = (props) =>{
     //make an array of the tables so the appropriate table can be selected by index
     const aggregateTable = [powerstatsTable, appearanceTable, biographyTable, workTable, connectionsTable]
 
-    const buttonText = ["Power Stats", "Appearance", "Biography", "Work", "Connections"]
+    const buttonText = ["Stats", "Appearance", "Bio", "Work", "Connections"]
 
     return(
         <div className='TabbedTable'>

@@ -1,9 +1,48 @@
-.HeroCardTitle{
-    margin-left:  0;
-    text-align: left;
-}
-
+/*Orients the image and table vertically on mobile, centered*/
 .ImageWithTable{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+/*Auto resizes image on mobile */
+img{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HeroCardTitle{
+    text-align: center;
+}
+
+@media screen and (min-width: 900px){
+    /*On desktop, orients the image and table horizontally and justifies to the left*/
+    .ImageWithTable{
+        justify-content: flex-start;
+        flex-direction: row;
+        padding-left: 1%;
+        max-width: 95%;
+    }
+
+    /*Both the image and wrapper need to maintain size even when the table expands to its max*/
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .lazyload-wrapper{
+        width: 320;
+        height: 480;
+        min-width: 320;
+        max-width: 100%;
+    }    
+
+    .HeroCardTitle{
+        text-align: left;
+        padding-left: 1%;
+    }
 }

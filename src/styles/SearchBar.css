@@ -1,13 +1,15 @@
-.SearchForm{
-    position: fixed;
-    top: 1%;
-    right: 10%;
-}
-
 .SearchBox{
     height: 30px;
 }
 
 .SearchButton{
     height: 30px;
+} 
+
+@media screen and (min-width: 900px){
+    .SearchForm{
+        position: fixed;
+        top: 1%;
+        right: 5%;
+    }
 }

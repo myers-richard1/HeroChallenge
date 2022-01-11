@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .App-header {
@@ -10,3 +12,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+ul{
+  padding: 0;
+}
+
